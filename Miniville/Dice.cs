@@ -20,14 +20,12 @@ namespace Miniville
 
         public int Roll()
         {
-            int result;
-            result = random.Next(0, facesNb + 1);
-            return result;
+            return random.Next(0, facesNb + 1);
         }
 
         public override string ToString()
         {
-            string toString = String.Format("[nom] à lancé le dé et à fait : {0}", Roll());
+            string toString = string.Format("[nom] à lancé le dé et à fait : {0}", Roll());
             return toString;
         }
     }
