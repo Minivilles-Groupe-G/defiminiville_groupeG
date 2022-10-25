@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Miniville
 {
-    class Program
+    internal class Piles
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

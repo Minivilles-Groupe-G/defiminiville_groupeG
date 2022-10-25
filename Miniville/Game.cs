@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Miniville
 {
-    class Program
+    internal class Game
     {
-        static void Main(string[] args)
-        {
-
-        }
+        
     }
 }

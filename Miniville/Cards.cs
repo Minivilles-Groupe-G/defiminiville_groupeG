@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Miniville
 {
-    class Program
+    internal class Cards
     {
-        static void Main(string[] args)
-        {
 
-        }
     }
 }
