@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Miniville
 {
-    internal class Piles
+    public class Piles
     {
     }
 }
