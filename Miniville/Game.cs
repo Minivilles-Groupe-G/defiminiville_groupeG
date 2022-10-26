@@ -15,8 +15,8 @@ namespace Miniville
         public int difficulty;
 
         //Objet
-        private Player player = new Player();
-        private Player ai = new Player();
+        //private Player player = new Player();
+        //private Player ai = new Player();
 
         private List<int> canAIBuy;
         //private Display display = new Display();
@@ -31,8 +31,8 @@ namespace Miniville
             this.endGame = endGame;
             this.scoreGoal = scoreGoal;
             this.difficulty = difficulty;
-            this.player = player;
-            this.ai = ai;
+            //this.player = player;
+            //this.ai = ai;
             this.canAIBuy = canAIBuy;
             this.random = random;
             this.die = die;
@@ -45,24 +45,38 @@ namespace Miniville
 
         }
 
-        public void PlayerTurn(Player player, Player opponent, string number)
+        public void PlayerTurn(Player player, Player opponent, string numberOfDice)
         {
+            dice = 0;
+            dice2 = 0;
 
+            if (int.Parse(numberOfDice) == 1) { dice = die.Roll(); }
+            else
+            {
+                dice = die.Roll();
+                dice2 = die.Roll();
+            }
+
+            //Fonction classe player
         }
 
-        public void AiTurn(Player ai, Player opponent, string number)
+        public void AiTurn(Player ai, Player opponent, string numberOfDice)
         {
-
+            //Intelligence AI
         }
 
-        public bool CheckEndGame(int scoreGoal, int difficulty)
+        public bool CheckEndGame(int scoreGoal, int score)
         {
+            bool haveAWinner = false;
 
+            if (score >= scoreGoal) { haveAWinner = true; }
+            
+            return haveAWinner;
         }
 
-        public void CheckPlayerWin(int scoreGoal)
+        public void CheckPlayerWin(int scoreGoal, int scorePlayer)
         {
-
+            //En attente de display
         }
     }
 }
