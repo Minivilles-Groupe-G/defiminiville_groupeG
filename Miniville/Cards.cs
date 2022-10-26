@@ -28,6 +28,23 @@ namespace Miniville
             return result;
         }
 
+        public CardsInfo GetCard(int Id)
+        {
+            return CardShop[Id];
+        }
+
+        public List<string> GetCardNames()
+        {
+            List<string> result = new List<string>();
+
+            for (int i = 0; i < CardShop.Count; i++)
+            {
+                result.Add(CardShop[i].Name);
+            }
+
+            return result;
+        }
+
         public static void CreateDeck()
         {
             AddCard(0, "Blue", 1, "Wheat field", 6, "Get 1 coin-", 1, 1, 1);
