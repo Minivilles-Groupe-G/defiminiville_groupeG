@@ -9,9 +9,9 @@ namespace Miniville
     public class Player
     {
         private int pieces;
-        private Piles playerCards;
+        private Pile playerCards;
 
-        public Player(int pieces, Piles playerCards)
+        public Player(int pieces, Pile playerCards)
         {
             this.pieces = pieces;
             this.playerCards = playerCards;
@@ -23,6 +23,6 @@ namespace Miniville
         }
 
         public int Pieces { get; set; }
-        public Piles PlayerCards { get; set; }
+        public Pile PlayerCards { get; set; }
     }
 }
