@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ﻿using Minivilles_Graphique;
+=======
+﻿using Miniville;
+>>>>>>> Stashed changes
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +24,11 @@ namespace Miniville
         {
             List<int> result = new List<int>();
 
+<<<<<<< Updated upstream
             for(int i = 0; i < CardShop.Count; i++)
+=======
+            for (int i = 0; i < CardShop.Count; i++)
+>>>>>>> Stashed changes
             {
                 result.Add(CardShop[i].Cost);
             }
@@ -50,7 +58,11 @@ namespace Miniville
             AddCard(0, "Blue", 1, "Wheat field", 6, "Get 1 coin-", 1, 1, 1);
             AddCard(1, "Blue", 1, "Farm", 6, "Get 1 coin-", 2, 2, 1);
             AddCard(2, "Green", 1, "Baker's shop", 6, "Get 2 coins-", 2, 3, 1);
+<<<<<<< Updated upstream
             AddCard(3, "Red", 2, "Café", 6, "Get 1 coin from the player-that rolled the die", 3, 3, 1);
+=======
+            AddCard(3, "Red", 2, "CafÃ©", 6, "Get 1 coin from the player-that rolled the die", 3, 3, 1);
+>>>>>>> Stashed changes
             AddCard(4, "Green", 2, "Grocer's shop", 6, "Get 3 coins-", 4, 4, 3);
             AddCard(5, "Blue", 3, "Forest", 6, "Get 1 coin-", 5, 5, 1);
             AddCard(6, "Red", 3, "Restaurant", 6, "Get 2 coins from the player-that rolled the die", 9, 10, 2);
