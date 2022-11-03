@@ -45,6 +45,19 @@ et ainsi de suite, votre but principale étant d'atteindre l'objectif de la diff
 
 Pour faire fonctionner le programme ouvrez le dossier "MinivilleGraphiqueExe" puis cliquez sur l'exécutable
 
+# Comment jouer ?
+
+Pour jouer, il vous suffis juste de cliquer sur les boutons qui seront présent sur l'interface graphique.
+
+Rappel des règles : Le jeu consiste en l'achat de carte, le gain et l'économie de points pour atteindre la victoire.
+L'objectif du joueur est d'accumuler 20 pièces.
+Le jeu s'arrêtera au moment ou le joueur ou son adversaire aura atteint les conditions de victoire.
+
+Les cartes ont différentes couleurs qui signifie qu'elles s'activent à différent moment :
+VERT signifie qu'elles s'activent durant le tour de leur possesseur
+ROUGE signifie qu'elles s'activent durant le tour de l'adversaire
+BLEU signffie qu'elles s'activent durant n'importe quel tour
+
 #
 
 Merci d'avoir pris le temps d'avoir jouer/évaluer notre jeu ^^
