@@ -41,6 +41,10 @@ Avec ces pièces que vous avez durement obtenues, vous aurez le choix d'acheter 
 et ainsi de suite, votre but principale étant d'atteindre l'objectif de la difficulté plus rapidement que votre adversaire
 
 
+# MinivilleInterfaceGraphique
+
+Pour faire fonctionner le programme ouvrez le dossier "MinivilleInterfaceGraphique" puis rendez-vous dans "bin/Debug/netcoreapp3.1" puis cliquez sur l'exécutable
+
 #
 
 Merci d'avoir pris le temps d'avoir jouer/évaluer notre jeu ^^
