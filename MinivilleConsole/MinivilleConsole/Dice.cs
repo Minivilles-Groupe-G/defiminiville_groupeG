@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miniville
+namespace MinivilleConsole
 {
-    internal class Dice
+    public class Dice
     {
         int facesNb;
         Random random = new Random();
@@ -20,7 +20,7 @@ namespace Miniville
 
         public int Roll()
         {
-            return random.Next(0, facesNb + 1);
+            return random.Next(1, facesNb + 1);
         }
 
         public override string ToString()

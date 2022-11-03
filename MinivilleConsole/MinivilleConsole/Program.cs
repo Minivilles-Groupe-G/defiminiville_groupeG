@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Miniville
+namespace MinivilleConsole
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            //Game g = new Game();
+            Game g = new Game();
+            g.Begin();
         }
     }
 }
