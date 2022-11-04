@@ -26,13 +26,13 @@ namespace MinivilleConsole
 			this.id = id;
 			this.limit = limit;
 			this.color = color;
-      this.type = type;
+            this.type = type;
 			this.cost = cost;
 			this.name = name;
 			this.effect = effect;
 			this.maxDice = maxDice;
 			this.minDice = minDice;
-      this.gain = gain;
+            this.gain = gain;
         }
     }
 }

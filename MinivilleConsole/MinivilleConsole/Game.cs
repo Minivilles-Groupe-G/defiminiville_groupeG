@@ -390,9 +390,14 @@ namespace MinivilleConsole
             //Sinon on continue
             if (!haveAWinner)
             {
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("\nCombien de dé(s) voulez-vous lancer ?");
-                int nbDe = int.Parse(Console.ReadLine());
+                int nbDe;
+                do
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("\nCombien de dé(s) voulez-vous lancer ?");
+                    nbDe = int.Parse(Console.ReadLine());
+                }
+                while (nbDe < 1 || nbDe > 2);
                 _Game(playerA, playerB, nbDe);
             }
 
